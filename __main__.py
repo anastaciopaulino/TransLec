@@ -82,19 +82,18 @@ printf "$green
 def _exec():
     main()
     try:
+         # -*- -l -*-
+        if(ls):
+            os.system("clear")
+            main2()
+            tr.Path()
+            tr.Path.printlist()
+
         # -*- --Descript -*-
         if(("--descript" in query) and ("--all" in query)):
             tr.Path()
             for file in tr.files:
                 tr.Trans(file, query["--descript"])
-
-        # -*- -l -*-
-        if(ls):
-            os.system("clear")
-            main2()
-            tr.Path()
-            tr.Path.printfile()
-
         # -*- --all -*-
         if(("--all" not in query) and ("--descript" in query)):
             while True:
@@ -107,8 +106,8 @@ def _exec():
     except:
         os.system('''
         red="\033[1;31m" 
-printf "{$red}[!]{$red}Aconteceu um erro não Programavel{$red}[!]{$red}\nPor favor acesse: https://github.com/anastaciopaulino/TransLec"''')
-            
+printf "\n$red[!]$red Aconteceu um erro não Programavel $red[!]\nPor favor acesse: https://github.com/anastaciopaulino/TransLec\n"''')
+        sleep(.5)            
     else:
         pass
 ls = False
