@@ -1,0 +1,18 @@
+﻿1
+00:00:05,230 --> 00:00:10,510
+Olá a todos e bem-vindos para a visão de computador do Python um aberto C-v curso e esta palestra vai
+
+2
+00:00:10,510 --> 00:00:12,480
+para ter uma visão geral curso rápido.
+
+3
+00:00:12,850 --> 00:00:15,720
+Eu tenho um favor para lhe pedir e é Por favor, não pule esta palestra.
+
+4
+00:00:15,730 --> 00:00:19,990
+Eu conheço um monte de vezes que as pessoas querem avançar para o muito legal material, mas ele vai ser um pouco
+
+5
+00:00:19,990 --> 00:00:22,590

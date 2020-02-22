@@ -12,7 +12,7 @@ class Trans:
 		self.name = filename
 		self.send = open(self.name,'r') 
 		self.responso = open("pt-"+self.name,'w')
-
+		print("Traduzindo: %s ..." %(self.name))
 		for line in self.send.readlines():   
 			self.traduzido = translator.translate(line, dest=dest).text
 			self.responso.write(self.traduzido+'\n')
