@@ -1,4 +1,7 @@
 # TransLecV1.0
+## Dependencias
+  - googletrans
 
-pip3 install googletrans
-python3 __main__.py
+## Como usar
+  - python3 __main__.py -h
+Mostra o help
