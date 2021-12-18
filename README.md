@@ -4,4 +4,4 @@
 
 ## Como usar
   - python3 __main__.py -h
-Mostra o help
+Show the help
