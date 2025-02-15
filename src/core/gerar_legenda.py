@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Script para transcrever o áudio de um vídeo e gerar um arquivo de legenda (SRT ou VTT)
 utilizando o modelo Whisper da OpenAI.
